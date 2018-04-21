@@ -9,7 +9,7 @@
 只要保持原作者署名和非商用，您可以自由地阅读、分享、修改。<br>
 详细的法律条文请参见[创意共享](https://creativecommons.org/licenses/by-nc/4.0/)网站。<br>
 
-后台地址：https://github.com/piaoxiaobo/epet_server
+本项目需要配合后台启动，地址：https://github.com/piaoxiaobo/epet_server
 
 ## 第一章 准备
 
@@ -21,6 +21,14 @@
 4)采用模块化、组件化、工程化的模式开发
 ```
 ### 1.2 项目功能界面
+![](https://i.imgur.com/3YmENGv.png)
+![](https://i.imgur.com/8CKAakF.png)
+![](https://i.imgur.com/RQUIrIV.png)
+![](https://i.imgur.com/05fU6GX.png)
+![](https://i.imgur.com/lj2758B.png)
+![](https://i.imgur.com/wPLoKGw.png)
+![](https://i.imgur.com/fQXjpXP.png)
+
 
 ### 1.3 技术选型
 
