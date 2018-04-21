@@ -1,0 +1,121 @@
+body{
+  background-color: #e7e7e7;
+}
+.header{
+  padding: 0 15px;
+  border-bottom: 1px solid #cbcbcb;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 40px;
+  z-index: 11;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.header_classify{
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  float: left;
+  font-weight: 700;
+}
+.header_classify a span{
+  color: #ed4044;
+  border-bottom: 2px solid #ed4044;
+  display: inline-block;
+  height: 40px;
+  padding: 0 4px;
+  cursor: pointer;
+  float: right;
+}
+.header_brand{
+  padding-left: 5%;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  float: left;
+  font-weight: 700;
+}
+.header_brand a span{
+  float: left;
+  display: inline-block;
+  height: 40px;
+  padding: 0 4px;
+  cursor: pointer;
+}
+.classify_content{
+  display: block;
+  margin-top: 40px;
+}
+.content_left{
+  position: fixed;
+  top: 40px;
+  left: 0;
+  overflow-y: scroll;
+  bottom: 50px;
+  padding-bottom: 45px;
+  border-right: 5px solid #f3f4f5;
+  background: #fff;
+  width: 70px;
+}
+.content_right{
+  margin-left: 75px;
+  border-top: 5px solid #f3f4f5;
+  background: #fff;
+}
+.content_left li{
+  background: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 1px solid #f3f4f5;
+  width: 70px;
+  height: 50px;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sort{
+  background: #fff;
+}
+.sort_content{
+  padding: 5px 5px 20px;
+  border-top: 1px solid #f3f4f5;
+}
+.sort_content a{
+  font-size: 12px;
+  display: block;
+  color: #999;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.sort li{
+  margin-top: 20px;
+}
+.list_li{
+  display: flex;
+  flex-direction: column;
+}
+.list_li img{
+  width: 87px;
+  height: 87px;
+}
+.sort_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sort_list p{
+  width: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 20px;
+  font-size: 13px;
+  color: #333;
+  margin-top: 10px;
+  text-align: center;
+}
